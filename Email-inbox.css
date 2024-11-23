@@ -1,0 +1,58 @@
+div{
+    font-family: Arial;
+}
+.container{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.index-label{
+    color: rgb(120, 120, 120);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sender-picture-countainer{
+    margin-right: 10px;
+}
+.sender-picture{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.email-content{
+    flex: 1;
+}
+.email-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.sender-name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.sender-time{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+.subject{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.message{
+    color: rgb(120, 120, 120);
+}
